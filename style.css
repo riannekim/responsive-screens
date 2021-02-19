@@ -1,0 +1,175 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+h1 a{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+h1 a:hover {
+    font-size: 5rem;
+    color: black;
+}
+  
+.circle1 {
+    background: white;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.circle2 {
+    background: white;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.circle3 {
+    background: white;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+.image-wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+.main-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3rem;
+}
+  
+.third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.fourth-section {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+  
+h2 {
+    font-size: 5rem;
+    transform: rotate(-90deg);
+}
+
+.allstar {
+    height: 30rem;
+    margin-right: 3rem;
+    opacity: 50%;
+}
+
+.allstar:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.vases {
+    height: 30rem;
+    opacity: 50%;
+}
+
+.vases:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.glasses {
+    height: 30rem;
+    margin-right: 3rem;
+    opacity: 50%;
+}
+
+.glasses:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.balloons {
+    height: 30rem;
+    width: 20rem;
+    opacity: 50%;
+}
+
+.balloons:hover {
+    color: white;
+    opacity: 100%;
+}
+  
+@media only screen and (max-width: 50rem) {
+    .first-section {
+      flex-direction: column;
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+  
+    .image-wrapper {
+      margin-left: 3rem;
+    }
+  
+    .circle1 {
+      margin-top: 0rem;
+      margin-left: 3rem;
+    }
+
+    .circle2 {
+        margin-top: 0rem;
+        margin-left: 3rem;
+    }
+
+    .circle3 {
+        margin-top: 0rem;
+        margin-left: 0.3rem;
+    }
+  
+    .fourth-section {
+      width: 100%;
+    }
+}
+  
